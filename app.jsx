@@ -123,8 +123,8 @@ angular.module('myapp', [])
         template: '<div></div>',
         link: function(scope, element, attrs) {
             // React and Angular, living in harmony:
-            React.render(< Calendar / >, element[0]);
-        },
+            React.render(< Calendar />, element[0]);
+        }
     };
 });
 
